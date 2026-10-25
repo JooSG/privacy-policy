@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>문토끼 스도쿠 - 개인정보처리방침</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #2D3748;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px;
+      background-color: #F8F9FA;
+    }
+    .container {
+      background: #FFFFFF;
+      padding: 36px 32px;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+    h1 {
+      font-size: 24px;
+      color: #1A202C;
+      margin-top: 0;
+      border-bottom: 2px solid #E2E8F0;
+      padding-bottom: 12px;
+    }
+    h2 {
+      font-size: 18px;
+      color: #2B6CB0;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    h3 {
+      font-size: 15px;
+      color: #4A5568;
+      margin-top: 18px;
+    }
+    p, li {
+      font-size: 14px;
+      color: #4A5568;
+    }
+    .badge {
+      background: #EDF2F7;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #4A5568;
+      display: inline-block;
+    }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .lang-switcher {
+      display: inline-flex;
+      background: #EDF2F7;
+      padding: 4px;
+      border-radius: 8px;
+      font-size: 13px;
+    }
+    .lang-switcher a {
+      padding: 4px 12px;
+      border-radius: 6px;
+      color: #4A5568;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .lang-switcher a.active {
+      background: #3182CE;
+      color: #FFFFFF;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 13px;
+    }
+    th, td {
+      border: 1px solid #E2E8F0;
+      padding: 10px 12px;
+      text-align: left;
+    }
+    th {
+      background: #F7FAFC;
+      color: #2D3748;
+    }
+    a {
+      color: #3182CE;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <div class="badge">최종 수정일: 2026년 10월 25일 | 패키지명: com.jellysoftgrid.sudoku</div>
+      <div class="lang-switcher">
+        <a href="privacy.html" class="active">한국어</a>
+        <a href="privacy_en.html">English</a>
+      </div>
+    </div>
+
+    <h1>문토끼 스도쿠 (Moonrabbit Sudoku) 개인정보처리방침</h1>
+
+    <h2>1. 개요 (Overview)</h2>
+    <p>JellySoftGrid(이하 "개발사")는 이용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 및 관련 법령, Google Play 개발자 정책을 준수합니다. 본 개인정보처리방침은 '문토끼 스도쿠'(이하 "앱")가 이용자의 정보를 어떻게 수집, 이용, 보관, 파기하는지 투명하게 안내합니다.</p>
+    <p>본 앱은 기본적으로 <strong>회원가입 없이 오프라인 게스트 상태로 모든 게임 플레이가 가능</strong>하며, 이용자가 자발적으로 Google 계정 연동 및 클라우드 세이브 기능을 사용할 때에 한하여 제한된 최소한의 정보를 처리합니다.</p>
+
+    <h2>2. 수집하는 개인정보의 항목 및 수집 방법</h2>
+    <h3>A. Google 계정 연동 및 클라우드 백업 (선택)</h3>
+    <ul>
+      <li><strong>수집 항목:</strong> Google 계정 고유 식별자(User ID), 이메일 주소, 프로필 닉네임, 게임 진행 데이터(레벨, 경험치, 도감 해금 목록, 클리어 타임 기록표)</li>
+      <li><strong>수집 목적:</strong> 기기 변경 및 앱 재설치 시 게임 데이터의 안전한 복원 및 클라우드 동기화</li>
+      <li><strong>수집 방법:</strong> 앱 내 [설정 > Google 계정으로 연동] 기능 이용 시 Google Sign-In SDK 및 Firebase Authentication을 통한 수집</li>
+    </ul>
+
+    <h3>B. 광고 서비스 (Google AdMob)</h3>
+    <ul>
+      <li><strong>수집 항목:</strong> 광고 식별자(Google Advertising ID / IDFA), IP 주소 기반 개략적 위치, 기기 식별값(제조사, 모델, OS 버전), 광고 조회 및 상호작용 기록</li>
+      <li><strong>수집 목적:</strong> 배너 광고, 전면 광고, 보상형 광고(보너스 컬렉션 해금) 제공 및 광고 성과 측정, 어뷰징/부정 클릭 방지</li>
+      <li><strong>수집 방법:</strong> Google Mobile Ads SDK를 통한 자동 수집</li>
+    </ul>
+
+    <h3>C. 서비스 통계 및 오류 분석 (Amplitude Analytics & Firebase)</h3>
+    <ul>
+      <li><strong>수집 항목:</strong> 익명화된 기기 인스턴스 ID, 앱 실행/종료 시간, 퍼즐 클리어/실패 통계, 화면 전환 로그, 충돌(Crash) 로그</li>
+      <li><strong>수집 목적:</strong> 퍼즐 난이도 밸런스 조정, 앱 오류 해결 및 최적화</li>
+      <li><strong>수집 방법:</strong> Amplitude React Native SDK 및 Firebase SDK를 통한 자동 수집</li>
+    </ul>
+
+    <h2>3. 개인정보의 보유 및 이용 기간</h2>
+    <p>개발사는 수집한 개인정보를 <strong>서비스 이용 기간 동안에만 보유 및 이용</strong>합니다. 이용자가 앱 내 [설정 > 전체 데이터 및 설정 초기화]를 수행하거나 Google 계정 연동을 해제하는 경우, 또는 계정 삭제를 요청하는 경우 <strong>지체 없이 영구 파기</strong>합니다.</p>
+
+    <h2>4. 개인정보의 제3자 제공 및 국외 이전</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>제공받는 자</th>
+          <th>제공 목적</th>
+          <th>처리 국가</th>
+          <th>개인정보 보호정책</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Google LLC</strong></td>
+          <td>Firebase 클라우드 DB, Auth 인증, AdMob 광고 송출</td>
+          <td>미국</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 보호정책</a></td>
+        </tr>
+        <tr>
+          <td><strong>Amplitude, Inc.</strong></td>
+          <td>게임 퍼널 분석 및 이용 지표 통계</td>
+          <td>미국</td>
+          <td><a href="https://amplitude.com/privacy" target="_blank">Amplitude Privacy Policy</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. 개인정보의 파기 절차 및 방법</h2>
+    <p>전자적 파일 형태로 기록·저장된 개인정보는 복구 및 재생이 불가능한 기술적 방법을 사용하여 영구 삭제합니다. 이용자는 앱 내 [설정] 화면의 [전체 데이터 및 설정 초기화] 버튼을 통해 로컬에 저장된 모든 플레이 기록과 설정값을 직접 즉시 삭제할 수 있습니다.</p>
+
+    <h2>6. 이용자 권리와 행사 방법</h2>
+    <p>이용자는 언제든지 자신의 개인정보(클라우드 세이브 데이터) 열람, 정정, 삭제를 요청할 수 있습니다. Google Play 계정 설정 또는 기기 설정에서 맞춤형 광고 수신 여부를 직접 거부하거나 광고 ID를 재설정할 수 있습니다.</p>
+
+    <h2>7. 아동의 개인정보 보호 정책</h2>
+    <p>본 앱은 만 14세 미만(미국 COPPA 기준 만 13세 미만) 아동을 주 타깃으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+    <h2>8. 개인정보 보호책임자 및 문의처</h2>
+    <p>개인정보 보호와 관련한 문의 및 데이터 삭제 요청은 아래 연락처로 문의해 주시기 바랍니다:</p>
+    <ul>
+      <li><strong>개발사:</strong> JellySoftGrid</li>
+      <li><strong>문의처:</strong> <a href="mailto:jellysoftgrid@gmail.com">jellysoftgrid@gmail.com</a></li>
+      <li><strong>패키지명:</strong> com.jellysoftgrid.sudoku</li>
+    </ul>
+  </div>
+</body>
+</html>
