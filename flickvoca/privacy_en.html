@@ -103,7 +103,7 @@
 <body>
   <div class="container">
     <div class="top-bar">
-      <div class="badge">Last Updated: October 28, 2026 | Package: com.jellysoftgrid.flickvoca</div>
+      <div class="badge">Last Updated: October 30, 2026 | Package: com.jellysoftgrid.flickvoca</div>
       <div class="lang-switcher">
         <a href="privacy.html">한국어</a>
         <a href="privacy_en.html" class="active">English</a>
@@ -125,14 +125,21 @@
       <li><strong>Collection Method:</strong> Collected via the Google Sign-In SDK and Firebase Authentication / Cloud Firestore when the user initiates [Continue with Google] or [Settings &gt; Account &gt; Connect Google Account].</li>
     </ul>
 
-    <h3>B. Analytics and Service Improvement (Amplitude Analytics)</h3>
+    <h3>B. Advertising Services (Google AdMob)</h3>
+    <ul>
+      <li><strong>Information Collected:</strong> Advertising identifier (Google Advertising ID / IDFA), coarse geographic location derived from IP address, device specifications (manufacturer, model, OS version), and ad interaction/view metrics.</li>
+      <li><strong>Purpose:</strong> Serving interstitial and banner ads to sustain free educational services, managing ad frequency capping, measuring advertising performance, and preventing fraudulent/invalid traffic.</li>
+      <li><strong>Collection Method:</strong> Automatically collected by the Google Mobile Ads SDK.</li>
+    </ul>
+
+    <h3>C. Analytics and Service Improvement (Amplitude Analytics)</h3>
     <ul>
       <li><strong>Information Collected:</strong> Pseudonymized device instance ID, app launch and session timestamps, session completion summary telemetry (cards reviewed, known/ambiguous/unknown counts, unassisted recall count, average response time in ms, session duration), screen view logs, and app version.</li>
       <li><strong>Purpose:</strong> Calibrating word difficulty bands, optimizing the response-weighted Ebbinghaus forgetting curve algorithm, identifying technical anomalies, and improving overall user experience.</li>
       <li><strong>Collection Method:</strong> Automatically collected via the Amplitude Analytics SDK. Telemetry is aggregated at the session level rather than tracking individual cards, protecting user privacy.</li>
     </ul>
 
-    <h3>C. Device Local Storage & Caching (Local Storage & IndexedDB)</h3>
+    <h3>D. Device Local Storage & Caching (Local Storage & IndexedDB)</h3>
     <ul>
       <li><strong>Information Stored:</strong> Local flashcard study queue and review progress, native TTS pronunciation audio cache, word illustration cache, and UI preferences (blind mode, auto-speak, swipe direction).</li>
       <li><strong>Purpose:</strong> Providing zero-latency 26-second rapid skimming even in offline environments and minimizing unnecessary network bandwidth usage.</li>
@@ -156,7 +163,7 @@
       <tbody>
         <tr>
           <td><strong>Google LLC</strong></td>
-          <td>Firebase Cloud Firestore (cloud data sync), Firebase Auth (authentication)</td>
+          <td>Firebase Cloud Firestore (cloud data sync), Firebase Auth (authentication), Google AdMob (ad delivery and measurement)</td>
           <td>United States</td>
           <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></td>
         </tr>
